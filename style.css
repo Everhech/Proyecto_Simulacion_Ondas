@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sliders-controls-container, .controls-global {
+    margin: 0 20px;
+    max-width: 45%; /* Limita el ancho máximo de los contenedores */
+}
+
+.sliders-controls-container {
+    background-color: aqua;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid slategray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.controls-item {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.simulation {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.slider {
+    width: 100px;
+    height: 8px;
+}
+
+.controls-global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid slategray;
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-scene-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.control-scene-buttons button {
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.switch-scenes-controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.switch-scenes-controls label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.switch-scenes-controls input {
+    margin-right: 10px;
+}
+.graphs-container{
+    width: 100px !important;
+    height: 100px;
+    padding-top: -0px;
+}
+#movimientos{
+    width: 30px;
+    height: 100px;
+}
+
+.graphs-container {
+    flex: 1; /* Distribuye el espacio disponible entre los contenedores */
+    margin: 5px; /* Añade un margen entre los contenedores */
+    box-sizing: border-box; /* Asegura que el margen se incluya en el ancho del contenedor */
+    width: 200px;
+}
